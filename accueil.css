@@ -1,0 +1,328 @@
+
+
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 15px;
+    margin-left: 15%;
+    height: 200px;
+    width: 70%;
+    border-radius: 5px;
+    background: url('GdP.JPG');
+    box-shadow: 4px 4px 4px #d4aa69;
+    background-position: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(212,170,105,0.8);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.bouton
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: #d4aa69;
+    border: 1px solid #d4aa69;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton img
+{
+    border: 0;
+}
+
+#banniere_image:hover
+{
+    box-shadow: 4px 4px 4px #000000;
+}
+
+
+.banraff
+{
+    width: 35%;
+    height: 192px;
+    background-color: white;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 4px;
+}
+
+#image_raff
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('raffinerie.jpg');
+    background-position: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+/* about*/
+
+
+#about_photo
+{
+    margin-top: 25px;
+    margin-right: 10%;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
+    background: url('oscar.png') no-repeat;
+    box-shadow: 4px 4px 4px #d4aa69;
+    background-position: 60% 30%;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+#about_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(212,170,105,0.8);
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    
+}
+
+/* mise en page*/
+
+h1
+{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited 
+{
+    text-decoration: none;
+}
+
+h1 a
+{
+	color: white;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.txt
+{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.def
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
+.definition
+{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 3px 3px #000000;
+    padding: 3px 5px 0px 5px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.blabla
+{
+    background-color: white;
+    border-radius: 8px;
+    padding: 3px 5px 3px 5px;
+    height: 250px;
+    margin-top: 15px;
+}
+
+.raff, .blabla 
+{
+    margin: 5px;
+    flex: 1; /* Les éléments partagent l'espace disponible de manière égale */
+    max-width: 90%; /* Permet aux éléments d'occuper jusqu'à 100% de la largeur du conteneur */
+}
+
+nav
+{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+
+#navi
+{
+    display: flex;
+    color: white;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav a
+{
+	color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    border-bottom: 3px solid white;
+}
+
+body
+{
+    background-color: #283583;
+}
+
+.dore
+{
+    color: #d4aa69;
+}
+
+.dore:visited
+{
+    color: #d4aa69;
+}
+
+footer, footer a
+{
+    color: white;
+}
+
+.logo_contact
+{
+    width: 50px;
+    height: 50px;
+}
+
+.contenu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.definition
+{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.raff
+{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.blabla
+{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 6%;
+}
+
+header nav ul li
+{
+    display: flex;
+    margin: 10px 15px 10px 15px;
+}
+
+footer
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer a
+{
+    margin-right: 5%;
+}
+
+.contact
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.about, .mooc, .blanc
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link:visited
+{
+    color: black;
+}
+
+.link
+{
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 3px 3px #d4aa69;
+    padding: 3px 5px 3px 5px;
+}

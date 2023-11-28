@@ -1,0 +1,187 @@
+/* quiz */
+
+body
+{
+    background-color: #d4aa69;
+}
+
+header
+{
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+header nav ul li
+{
+    display: flex;
+    margin: 10px 15px 10px 15px;
+}
+
+
+header
+{
+    text-align: center;
+}
+
+header a
+{
+    color: #000000;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav a
+{
+	color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    border-bottom: 3px solid black;
+}
+
+.quiz
+{
+    background-color: #d4aa69;
+}
+
+.rep1
+{
+    width: 60%;
+    height: 25px;
+    margin-left: 20%;
+    position: absolute;
+    background-color: rgba(40, 53, 131, 0.8);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.rep2
+{
+    width: 60%;
+    height: 25px;
+    margin-left: 20%;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.rep3
+{
+    width: 60%;
+    height: 25px;
+    margin-left: 20%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.question
+{
+    width: 70%;
+    height: 35px;
+    margin-left: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.res
+{
+    font-size: 1.8em;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playpen Sans', cursive;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    margin: 3px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.tete
+{
+    height:600px;
+    margin-top: 15px;
+}
+
+.photo_flip, .p2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.photo_flip
+{
+    margin-top: 30px;
+}
+
+footer
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer a
+{
+    margin-right: 5%;
+}
+
+a:visited
+{
+    color: black;
+}
+
+footer, footer a
+{
+    color: black;
+}
+
+.logo_contact
+{
+    width: 50px;
+    height: 50px;
+}
+
+form
+{
+    margin : 10px;
+}
+
+.contact
+{
+    display: flex;
+    flex-direction: column;
+}
